@@ -17,8 +17,6 @@ const SwitchFunc = (props) => {
     else SetIsActive(true);
     }
 
-    
-    
 
   const className = `root ${isActive ? "on" : "off"}`;
     return (
